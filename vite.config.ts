@@ -14,6 +14,7 @@ const buildConfig = defineConfig({
    plugins: [
       //
       Vue(),
+      VueJSX(),
       Icons({
          compiler: 'vue3'
       }),
