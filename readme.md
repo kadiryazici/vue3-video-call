@@ -1,6 +1,6 @@
 ## A `Call` Library for Vue3
 
-[![Who Is Calling](https://img.shields.io/npm/v/who-is-calling)](https://npmjs.com/package/who-is-calling)
+[![Vue3 Video Call](https://img.shields.io/npm/v/vue3-video-call)](https://npmjs.com/package/vue3-video-call)
 
 What is the purpose of this library? Nothing.
 
