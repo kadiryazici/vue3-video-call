@@ -30,7 +30,7 @@ Import and use the plugin.
 
 ```tsx
 import { createApp } from 'vue;
-import { createVideoCallPlugin } from 'who-is-calling';
+import { createVideoCallPlugin } from 'vue3-video-call';
 import App from './App';
 
 const app = createApp(App);
