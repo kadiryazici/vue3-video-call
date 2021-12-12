@@ -36,7 +36,7 @@ app.use(videoCall);
 app.mount('#app');
 ```
 
-Add `WhoIsCallingView` component to `App.vue`;
+Add `VideoCallsView` component to `App.vue`;
 
 `App.vue`
 

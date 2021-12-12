@@ -35,7 +35,7 @@ const buildConfig = defineConfig({
 
 const demoConfig = defineConfig({
    root: path.join(root, 'demo'),
-   base: 'who-is-calling/',
+   base: 'vue3-video-call/',
    plugins: [
       VueJSX(), //
       Vue(),
