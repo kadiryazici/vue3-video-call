@@ -29,7 +29,7 @@ yarn add vue3-video-call vue3-styled-components
 Import and use the plugin.
 
 ```tsx
-import { createApp } from 'vue;
+import { createApp } from 'vue';
 import { createVideoCallPlugin } from 'vue3-video-call';
 import App from './App';
 
