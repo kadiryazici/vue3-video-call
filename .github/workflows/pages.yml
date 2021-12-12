@@ -1,0 +1,36 @@
+name: Pages
+
+on:
+   push:
+      branches:
+         - main
+
+name: Publish
+
+on:
+   push:
+      branches:
+         - main
+
+jobs:
+   publish:
+      runs-on: ubuntu-latest
+      name: Publish
+      steps:
+         - name: Checkout repository
+           uses: actions/checkout@v2
+         - name: Use Node.js
+           uses: actions/setup-node@v2
+           with:
+              node-version: '16'
+         - name: Install dependencies
+           run: npm install
+         - name: Build app
+           run: npm run build:demo
+         - name: Deploy
+         uses: crazy-max/ghaction-github-pages@v1
+         with:
+            target_branch: gh-pages
+            build_dir: dist-demo
+         env:
+            GITHUB_TOKEN: ${{ secrets.PAGES_TOKEN }}
