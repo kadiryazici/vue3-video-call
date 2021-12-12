@@ -1,6 +1,6 @@
 {
    "name": "vue3-video-call",
-   "version": "1500.0.2",
+   "version": "1500.0.3",
    "main": "./dist/vue3-video-call.umd.js",
    "module": "./dist/vue3-video-call.es.js",
    "types": "./dist/src/lib.d.ts",
